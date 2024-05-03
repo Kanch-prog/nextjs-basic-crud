@@ -1,3 +1,22 @@
+My Awesome Next.js Pre-rendered Website
+
+Overview
+This project demonstrates how to build a pre-rendered website using Next.js and Material-UI. Pre-rendering enhances SEO, search engine crawling, and social media sharing.
+Pages
+List of Tourist Attractions
+	Create a page to display a list of tourist attractions.
+	Use Static Generation without fetching external data.
+Tourist Attraction Detail
+	Create a page to show details of a specific attraction.
+	Use dynamic routing (e.g., pages/[id].js).
+	Fetch data for pre-rendering using getStaticProps.
+Deployment Issues
+The deployment to Vercel failed due to a mismatch of versions between React and Material-UI. This discrepancy led to compatibility issues, resulting in a failed deployment.
+
+![image](https://github.com/Kanch-prog/nextjs-basic-crud/assets/121807277/81e890fe-4061-475a-bca8-dafc57aec59a)
+![image](https://github.com/Kanch-prog/nextjs-basic-crud/assets/121807277/6a8ee3e3-545b-4891-8770-e4f2eb46e59c)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
